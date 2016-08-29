@@ -1,0 +1,39 @@
+{
+  "name": "superb-spanish",
+  "version": "0.0.0",
+  "description": "Get superb like words in spanish",
+  "license": "MIT",
+  "repository": "rickypaun/superb-spanish",
+  "author": {
+    "name": "Ricky Paun",
+    "email": "paunricky@gmail.com",
+    "url": "github.com/rickypaun"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
