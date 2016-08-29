@@ -1,11 +1,11 @@
 {
   "name": "superb-spanish",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "description": "Get superb like words in spanish",
   "license": "MIT",
   "repository": "rickypaun/superb-spanish",
   "author": {
-    "name": "Ricky Paun",
+    "name": "rickypaun",
     "email": "paunricky@gmail.com",
     "url": "github.com/rickypaun"
   },
