@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.6
+3 info using node@v4.4.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Projects\\superb-spanish',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\USER\AppData\Roaming\npm-cache\superb-spanish\0.2.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\USER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle superb-spanish@0.2.0~prepublish: superb-spanish@0.2.0
+11 silly lifecycle superb-spanish@0.2.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\USER\\AppData\\Roaming\\npm-cache\\superb-spanish\\0.2.0\\package.tgz',
+12 verbose tar pack   'C:\\Projects\\superb-spanish' ]
+13 verbose tarball C:\Users\USER\AppData\Roaming\npm-cache\superb-spanish\0.2.0\package.tgz
+14 verbose folder C:\Projects\superb-spanish
+15 verbose addLocalTarball adding from inside cache C:\Users\USER\AppData\Roaming\npm-cache\superb-spanish\0.2.0\package.tgz
+16 verbose correctMkdir C:\Users\USER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd superb-spanish@0.2.0
+18 verbose afterAdd C:\Users\USER\AppData\Roaming\npm-cache\superb-spanish\0.2.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\USER\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\USER\AppData\Roaming\npm-cache\superb-spanish\0.2.0\package\package.json written
+21 silly publish { name: 'superb-spanish',
+21 silly publish   version: '0.2.0',
+21 silly publish   description: 'Get superb like words in spanish',
+21 silly publish   license: 'MIT',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/rickypaun/superb-spanish.git' },
+21 silly publish   author:
+21 silly publish    { name: 'rickypaun',
+21 silly publish      email: 'paunricky@gmail.com',
+21 silly publish      url: 'github.com/rickypaun' },
+21 silly publish   bin: { 'superb-spanish': 'cli.js' },
+21 silly publish   engines: { node: '>=4' },
+21 silly publish   scripts: { test: 'xo && ava' },
+21 silly publish   publishConfig: { access: 'public' },
+21 silly publish   files: [ 'index.js', 'cli.js' ],
+21 silly publish   keywords: [ 'cli-app', 'cli', 'superb', 'spanish', 'words' ],
+21 silly publish   dependencies: { meow: '^3.7.0', 'unique-random-array': '^1.0.0' },
+21 silly publish   devDependencies: { ava: '^0.15.2', xo: '^0.16.0' },
+21 silly publish   xo: { esnext: true },
+21 silly publish   readme: '# superb-spanish [![Build Status](https://travis-ci.org/rickypaun/superb-spanish.svg?branch=master)](https://travis-ci.org/rickypaun/superb-spanish)\n\n> Get superb like words in Spanish\n\nThe word list itself is just a [JSON file](words.json) and can be used wherever.\n\n\n## Install\n\n```\n$ npm install --save superb-spanish\n```\n\n\n## Usage\n\n```js\nconst superbSpanish = require(\'superb-spanish\');\n\nsuperbSpanish();\n//=> \'maravilloso\'\n\nsuperbSpanish();\n//=> \'alucinante\'\n\nsuperbSpanish.words\n// [\'alucinante\',\t\'asombroso\', ...]\n```\n\n\n## API\n\n### superbSpanish()\n\n#### input\n\nType: `string`\n\nRandom [superb like word](words.json).\n\n#### options\n\n##### superbSpanish.words\n\nType: `array`\n\nAll the words\n\n\n## CLI\n\n```\n$ npm install --global superb-spanish\n```\n\n```\n$ superb-spanish --help\n\n\tExamples\n\t  $ superb-spanish\n\t  legendario\n\n\t  $ superb-spanish --all\n\t\t  alucinante\n\t\t  asombroso\n\t\t  ...\n\n\t\tOptions\n\t  --all  Get all the words instead of a random word\n```\n\n\n## License\n\nMIT © [Ricky Paun](https://github.com/rickypaun)\n',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   gitHead: 'c6ba1f1ec6aa8aa6fe508bbe424f0dac17f442ac',
+21 silly publish   bugs: { url: 'https://github.com/rickypaun/superb-spanish/issues' },
+21 silly publish   homepage: 'https://github.com/rickypaun/superb-spanish#readme',
+21 silly publish   _id: 'superb-spanish@0.2.0',
+21 silly publish   _shasum: '9121009f6acde1e94c3b46c131abb8bfa3d93934',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig { access: 'public' }
+23 silly mapToRegistry name superb-spanish
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'superb-spanish',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'superb-spanish',
+26 silly mapToRegistry   name: 'superb-spanish',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/superb-spanish
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\USER\AppData\Roaming\npm-cache\superb-spanish\0.2.0\package.tgz
+30 verbose request uri https://registry.npmjs.org/superb-spanish
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 03:11:31
+33 verbose request using bearer token for auth
+34 verbose request id 2d48af7f3fc060cc
+35 http request PUT https://registry.npmjs.org/superb-spanish
+36 http 403 https://registry.npmjs.org/superb-spanish
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 29 Aug 2016 06:11:37 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-gru7125-GRU',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1472451096.273130,VS0,VE775',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating C:\Users\USER\AppData\Roaming\npm-cache\registry.npmjs.org\superb-spanish on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.2.0." : superb-spanish
+40 verbose stack     at makeError (C:\Users\USER\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+40 verbose stack     at Request._callback (C:\Users\USER\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+40 verbose stack     at Request.self.callback (C:\Users\USER\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:200:22)
+40 verbose stack     at emitTwo (events.js:87:13)
+40 verbose stack     at Request.emit (events.js:172:7)
+40 verbose stack     at Request.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1067:10)
+40 verbose stack     at emitOne (events.js:82:20)
+40 verbose stack     at Request.emit (events.js:169:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:988:12)
+41 verbose statusCode 403
+42 verbose pkgid superb-spanish
+43 verbose cwd C:\Projects\superb-spanish
+44 error Windows_NT 10.0.10586
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v4.4.3
+47 error npm  v3.10.6
+48 error code E403
+49 error "You cannot publish over the previously published version 0.2.0." : superb-spanish
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
