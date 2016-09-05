@@ -21,7 +21,8 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "words.json"
   ],
   "keywords": [
     "cli-app",
